@@ -7,6 +7,7 @@ public class Wall {
     public Wall(double width, double height){
         setWidth(width);
         setHeight(height);
+
     }
 
     public  double getWidth(){
