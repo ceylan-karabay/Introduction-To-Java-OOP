@@ -5,8 +5,8 @@ public class Person {
     String lastName;
     int age;
     int salary;
-    String departman;
-    String adres;
+    String department;
+    String address;
 
     public  Person(String firstName, String lastName, int age){
         this.firstName = firstName;
@@ -14,11 +14,11 @@ public class Person {
         this.age = age;
     }
 
-    public  Person(String firstName, String lastName, int age, int salary, String departman, String adres){
+    public  Person(String firstName, String lastName, int age, int salary, String department, String address){
         this(firstName, lastName, age);
         this.salary = salary;
-        this.departman = departman;
-        this.adres = adres;
+        this.department = department;
+        this.address = address;
     }
 
     public  String getFirstName(){
